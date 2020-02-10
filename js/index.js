@@ -60,3 +60,30 @@ let button = document.querySelector('button');
 button.textContent = 'Get Started';
 let ctaImg = document.getElementById('cta-img');
 ctaImg.setAttribute('src', siteContent['cta']['img-src']);
+
+let h4m= document.querySelectorAll('h4');
+let h4f = h4m[0];
+h4f.textContent = 'Features';
+let h4a = h4m[1];
+h4a.textContent = 'About';
+let h4s = h4m[2];
+h4s.textContent = 'Services';
+let h4p = h4m[3];
+h4p.textContent = 'Product';
+let h4v = h4m[4];
+h4v.textContent = 'Vision';
+let pm = document.querySelectorAll('p');
+let pmf = pm[0];
+pmf.textContent ='Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+let pma = pm[1];
+pma.textContent = 'About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+let pms = pm[2];
+pms.textContent = 'Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.'
+let pmp = pm[3];
+pmp.textContent = 'Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+let pmv = pm[4];
+pmv.textContent = 'Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+
+let middleImg = document.getElementById('middle-img');
+middleImg.setAttribute('src', siteContent['main-content']['middle-img-src'])
+
