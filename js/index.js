@@ -53,3 +53,10 @@ let nav5 = nav[4];
 nav5.textContent = 'About';
 let nav6 = nav[5];
 nav6.textContent = 'Contact';
+
+let h1 = document.querySelector('h1');
+h1.textContent = 'DOM is Awesome';
+let button = document.querySelector('button');
+button.textContent = 'Get Started';
+let ctaImg = document.getElementById('cta-img');
+ctaImg.setAttribute('src', siteContent['cta']['img-src']);
