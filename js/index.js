@@ -41,6 +41,9 @@ const siteContent = {
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
 let nav = document.getElementsByTagName('a');
+for (let link of nav){
+  link.style.color='green';
+};
 let nav1 = nav[0];
 nav1.textContent ='Services';
 let nav2 = nav[1];
@@ -87,3 +90,25 @@ pmv.textContent = 'Vision content elementum magna eros, ac posuere elvit tempus 
 let middleImg = document.getElementById('middle-img');
 middleImg.setAttribute('src', siteContent['main-content']['middle-img-src'])
 
+let h4C = h4m[5];
+h4C.textContent = 'Contact';
+let pc1 = pm[5];
+pc1.textContent = '123 Way 456 Street Somewhere, USA';
+let pc2 = pm[6];
+pc2.textContent = '1 (888) 888-8888';
+let pc3 = pm[7];
+pc3.textContent = 'sales@greatidea.io';
+
+pf1 = pm[8];
+pf1.textContent = 'Copyright Great Idea! 2018';
+let newContent = document.createElement('a');
+newContent.textContent = 'heya';
+newContent.style.color = 'green';
+add = document.querySelector('nav');
+
+add.prepend(newContent);
+
+let nc2 = document.createElement('a');
+nc2.textContent = 'whatup';
+add.append(nc2);
+nc2.style.color = 'green';
